@@ -59,3 +59,12 @@ a.active {
   /* width küçüldükçe resimler sıkışıyordu, bunu önlemek için object-fill kullandım */
   object-fit: cover;
 }
+
+.about {
+  width: 40%;
+}
+
+.about h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
