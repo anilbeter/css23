@@ -53,7 +53,9 @@ a.active {
   padding: 16px;
 }
 
-img {
+.card-container img {
   height: 500px;
   width: 100%;
+  /* width küçüldükçe resimler sıkışıyordu, bunu önlemek için object-fill kullandım */
+  object-fit: cover;
 }
