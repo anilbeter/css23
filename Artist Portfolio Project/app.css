@@ -60,6 +60,10 @@ a.active {
   object-fit: cover;
 }
 
+.card-container img:hover {
+  opacity: 0.9;
+}
+
 .about {
   width: 40%;
   min-width: 600px;
