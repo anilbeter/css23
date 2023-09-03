@@ -11,7 +11,9 @@ body {
 
 .hero {
   background-color: #f08e80;
-  height: 90vh;
+  min-height: 90vh;
+  color: white;
+  display: inline-block;
 }
 
 .navbar {
@@ -56,4 +58,33 @@ body {
   color: #fff;
   letter-spacing: 2px;
   padding: 32px 0;
+  margin: 64px 0 84px 0;
+}
+
+.two-column-section {
+  font-size: 2rem;
+}
+
+.two-column-section p {
+  padding: 32px 0 32px 0;
+  width: 50%;
+  box-sizing: border-box;
+  float: left
+    /* with float: left -> missions and description (2 paragrapsh) now side by side */
+}
+
+.two-column-section .skills {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  list-style: none;
+  padding-bottom: 32px;
+}
+
+.two-column-section .skills li {
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0
 }
