@@ -159,3 +159,19 @@ body {
   color: grey;
   margin: 32px 0;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 64px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
+}
