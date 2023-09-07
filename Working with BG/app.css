@@ -1,14 +1,10 @@
 .box {
-  border: 1px solid red;
-  height: 500px;
-  width: 900px;
+  border: 20px dashed red;
+  height: 400px;
+  width: 400px;
 
-  background-image: url("images/people.jpg");
-  /* I set background but its too big! I can wrap it anyway, with background-size */
-
-  background-size: cover;
-  /* cover -> it scales the image to for my dimensions with no empty space (500x900). the image is cropped either vertically or horizontally */
-
-  background-position: center;
+  padding: 20px;
+  background-image: url("images/woman.jpg");
+  background-clip: content-box;
 
 }
