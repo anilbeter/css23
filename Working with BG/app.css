@@ -1,11 +1,12 @@
 .box {
   border: 1px solid red;
   height: 500px;
-  width: 500px;
+  width: 900px;
 
-  background-image: url("images/peacock.png");
+  background-image: url("images/food.jpg");
+  /* I set background but its too big! I can wrap it anyway, with background-size */
 
-  /* background-repeat: no-repeat; */
-  /* background-repeat: repeat-x; -> repeat only X axis  */
-  /* background-repeat: repeat-y; -> repeat only Y axis */
+  background-size: cover;
+  /* cover -> it scales the image to for my dimensions with no empty space (500x900). the image is cropped either vertically or horizontally */
+
 }
