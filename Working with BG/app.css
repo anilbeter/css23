@@ -1,11 +1,11 @@
 .box {
   border: 1px solid red;
-  height: 300px;
-  width: 300px;
-  /* 
-  I can load image via url/online host:
+  height: 500px;
+  width: 500px;
 
-  background-image: url("https: //images.unsplash.com/photo-1693643449342-9effd3c4ba32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80")
-  */
-  background-image: url("images/peacock.png"), url("images/sunset.jpg");
+  background-image: url("images/peacock.png");
+
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; -> repeat only X axis  */
+  /* background-repeat: repeat-y; -> repeat only Y axis */
 }
