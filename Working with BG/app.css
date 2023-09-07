@@ -2,11 +2,12 @@
   border: 1px solid red;
   height: 300px;
   width: 300px;
-  background-color: magenta;
   /* 
   I can load image via url/online host:
 
   background-image: url("https: //images.unsplash.com/photo-1693643449342-9effd3c4ba32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80")
   */
-  background-image: url("images/food.jpg");
+  background-image: url("images/peacock.png");
+  background-color: antiquewhite;
+  /* I can see antiquewhite background color cuz peacock is transparant/bgless.png photo */
 }
