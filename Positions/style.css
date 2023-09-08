@@ -3,6 +3,8 @@ p {
   background-color: magenta;
   margin: 30px;
   font-size: 2rem;
+
+  z-index: -1;
 }
 
 #special {
@@ -11,6 +13,6 @@ p {
   background-color: yellow;
   /* top: -20px; */
   /* bottom: 20px; */
-  top: 40px;
+  top: 100px;
   left: 20px;
 }
