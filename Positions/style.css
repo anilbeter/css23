@@ -7,4 +7,8 @@
 
 .special {
   background-color: orangered;
+  position: absolute;
+  /* şu an bunun üstünde olan bir parent belirlemedim position: relative olan. bu yüzden root'u referans alıyor */
+  top: 0;
+  left: 0;
 }
