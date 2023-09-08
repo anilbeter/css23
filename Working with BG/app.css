@@ -1,7 +1,11 @@
 .box {
   border: 2px solid black;
-  height: 400px;
-  width: 400px;
+  height: 700px;
+  width: 700px;
+  background: url("images/people.jpg");
+  background-size: cover;
 
-  background: url("images/peacock.png") no-repeat center/200%, url("images/sunset.jpg") left;
+  /* filter: blur(5px); */
+  /* filter: grayscale() contrast(100%); */
+  filter: hue-rotate(180deg);
 }
