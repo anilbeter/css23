@@ -3,7 +3,14 @@ p {
   background-color: magenta;
   margin: 30px;
   font-size: 2rem;
+}
 
-  position: static;
-  /* default position */
+#special {
+  position: relative;
+  /* Now I can set: bottom, top, left, right and z-index */
+  background-color: yellow;
+  /* top: -20px; */
+  /* bottom: 20px; */
+  top: 40px;
+  left: 20px;
 }
