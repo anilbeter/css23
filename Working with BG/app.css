@@ -3,6 +3,5 @@
   height: 400px;
   width: 400px;
 
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to right bottom, cyan, yellow, magenta);
-  /* I add black transparant ,let's say shadow, , used 2 gradiants at the same time */
+  background: url("images/peacock.png") no-repeat center/200%, url("images/sunset.jpg") left;
 }
