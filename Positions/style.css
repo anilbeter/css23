@@ -1,0 +1,10 @@
+span {
+  font-size: 2rem;
+  background-color: orchid;
+  color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Now its fixed. Whether I scroll down to page or just stay normal 100vh & 100hv, span comes with me */
+}
