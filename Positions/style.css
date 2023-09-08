@@ -3,12 +3,17 @@
   height: 200px;
   width: 200px;
   display: inline-block;
+  position: relative;
 }
 
-.special {
+.box span {
+  font-size: 1.2rem;
   background-color: orangered;
+  color: #fff;
+
   position: absolute;
-  /* şu an bunun üstünde olan bir parent belirlemedim position: relative olan. bu yüzden root'u referans alıyor */
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+    /* now, this span relative to the box class. It references it as origin point. */
 }
