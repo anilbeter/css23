@@ -1,4 +1,17 @@
 body {
   background: radial-gradient(#0288d1, #01579b);
   height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  border: 2px solid currentColor;
+  padding: 15px 30px;
+  border-radius: 4px;
 }
