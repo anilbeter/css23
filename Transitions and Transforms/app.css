@@ -6,10 +6,11 @@
   margin-top: 30px;
   background-color: white;
 
-  transition: color 0.5s, background-color 20s;
+  transition: transform 3s ease-out;
+  /* ease-out -> starts quickly, slows down */
+  /* ease-in -> starts slowly, speeds up */
 }
 
 .btn:hover {
-  background-color: orangered;
-  color: white;
+  transform: translateX(100px);
 }
