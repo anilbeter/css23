@@ -6,3 +6,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.btn {
+  background-color: white;
+  color: #401aff;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  border-radius: 0.3rem;
+  padding: 2rem 7rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 1rem;
+  border: none;
+  cursor: pointer;
+}
